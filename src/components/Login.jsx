@@ -6,7 +6,7 @@ const Login = () => {
     useEffect(() => {
         console.log("ejecutando efecto");
         (async () => {
-            fetch("https://server-node-neon-rho.vercel.app/api").then(res => res.text()).then(res => console.log(res));
+            fetch("https://servidor-ten-phi.vercel.app/api").then(res => res.text()).then(res => console.log(res));
         })()
 
     }, [])
