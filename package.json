@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://leonidasgarcia.github.io/rifa-pro-fondos/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
