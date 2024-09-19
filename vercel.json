@@ -12,7 +12,7 @@
     "routes": [
         {
             "src": "/api/(.*)",
-            "dest": "https://api.ejemplo.com/$1"
+            "dest": "https://server-node-neon-rho.vercel.app/$1"
         },
         {
             "src": "/(.*)",
