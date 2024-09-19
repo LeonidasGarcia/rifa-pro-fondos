@@ -1,6 +1,12 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Login = () => {
+
+    useEffect(async () => {
+        fetch("https://server-l932.onrender.com/api").then(res => res.text()).then(res => console.log(res)).catch(res => console.log(res));
+    }, [])
+
     return (
         <>
             <section className="p-8 flex flex-col items-center w-Login h-Login bg-gray-50 rounded-xl">
