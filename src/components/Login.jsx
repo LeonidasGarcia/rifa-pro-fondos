@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
 
-    useEffect(async () => {
-        fetch("https://server-l932.onrender.com/api", {
-            mode: "no-cors"
-        }).then(res => res.text()).then(res => console.log(res)).catch(res => console.log(res));
+    useEffect(() => {
+        console.log("ejecutando efecto");
+        (async () => {
+            fetch("/api").then(res => res.text()).then(res => console.log(res));
+        })()
+
     }, [])
 
     return (
