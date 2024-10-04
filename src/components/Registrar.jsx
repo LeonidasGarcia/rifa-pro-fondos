@@ -106,7 +106,7 @@ const Registrar = () => {
                 setGlobalCarga(true);
     
                 (async ()=>{
-                    fetch("/api/register", {
+                    fetch("https://rifa-pro-fondos-tau.vercel.app/api/register", {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -375,7 +375,7 @@ const ActualizarInfo = ({contador}) => {
             });
             
             (async ()=>{
-                fetch("/api/actualizar", {
+                fetch("https://rifa-pro-fondos-tau.vercel.app/api/actualizar", {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -426,7 +426,7 @@ const ActualizarInfo = ({contador}) => {
             setGlobalCarga(true);
 
             (async ()=>{
-                fetch("/api/erase", {
+                fetch("https://rifa-pro-fondos-tau.vercel.app/api/erase", {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -519,7 +519,7 @@ const DownladExcel = ({admin}) => {
         setGlobalCarga(true);
 
         (async ()=>{
-            fetch("/api/download-excel-vendedores", {
+            fetch("https://rifa-pro-fondos-tau.vercel.app/api/download-excel-vendedores", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -550,7 +550,7 @@ const DownladExcel = ({admin}) => {
         setGlobalCarga(true);
 
         (async ()=>{
-            fetch("/api/download-excel-compradores", {
+            fetch("https://rifa-pro-fondos-tau.vercel.app/api/download-excel-compradores", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -592,7 +592,7 @@ const DownladExcel = ({admin}) => {
         setGlobalCarga(true);
 
         (async ()=>{
-            fetch("/api/download-excel-vendedores", {
+            fetch("https://rifa-pro-fondos-tau.vercel.app/api/download-excel-vendedores", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -618,7 +618,7 @@ const DownladExcel = ({admin}) => {
         setGlobalCarga(true);
 
         (async ()=>{
-            fetch("/api/download-excel-compradores", {
+            fetch("https://rifa-pro-fondos-tau.vercel.app/api/download-excel-compradores", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
