@@ -21,10 +21,11 @@ const Manage = () => {
                 sessionStorage.setItem("vendedor", JSON.stringify(vendedor));
                 setVendedor(vendedor);
                 setVendedor(vendedorGuardado);
-            
+                console.log("ola");
             }
             else {
                 setVendedor(vendedorGuardado);
+                console.log("adios");
             }   
         } catch (error) {
             console.log("ola sorra");
