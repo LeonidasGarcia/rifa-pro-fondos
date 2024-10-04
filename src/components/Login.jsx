@@ -23,7 +23,7 @@ const Login = () => {
         setCargando(true);
 
         (async ()=>{
-            fetch("/api/login", {
+            fetch("https://rifa-pro-fondos-tau.vercel.app/api/login", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
