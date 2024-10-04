@@ -26,7 +26,9 @@ const Manage = () => {
             else {
                 setVendedor(vendedorGuardado);
             }   
-        } catch (error) {}
+        } catch (error) {
+            console.log("ola sorra");
+        }
         
     }, [])
 
