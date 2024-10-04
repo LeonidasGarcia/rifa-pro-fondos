@@ -381,3 +381,26 @@ template {
 [hidden] {
     display: none;
 }
+
+::-webkit-scrollbar {
+    display: none;
+    width: 10px;               /* Ancho de la barra de scroll vertical */
+    height: 10px;
+    position: absolute;              /* Altura de la barra de scroll horizontal */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;       /* Color de la pista de la barra de scroll */
+    position: absolute; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3c71c7;        /* Color de la barra de scroll */
+    position: absolute; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3564b0;          /* Color de la barra de scroll al pasar el ratón */
+    position: absolute; 
+  }
+  

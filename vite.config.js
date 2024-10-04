@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://server-node-neon-rho.vercel.app/",
+        target: "https://3000-idx-rifa-pro-fondos-1726786151144.cluster-iesosxm5fzdewqvhlwn5qivgry.cloudworkstations.dev",
         changeOrigin: true
       }
     }
