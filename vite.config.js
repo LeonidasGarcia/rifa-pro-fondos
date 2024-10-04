@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://3000-idx-rifa-pro-fondos-1726786151144.cluster-iesosxm5fzdewqvhlwn5qivgry.cloudworkstations.dev",
+        target: "https://rifa-pro-fondos-tau.vercel.app",
         changeOrigin: true
       }
     }
