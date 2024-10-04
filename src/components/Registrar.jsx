@@ -19,8 +19,6 @@ const Manage = () => {
         try {
             if (vendedorGuardado.nombre === "") {
                 sessionStorage.setItem("vendedor", JSON.stringify(vendedor));
-                setVendedor(vendedor);
-                setVendedor(vendedorGuardado);
                 console.log("ola");
             }
             else {
